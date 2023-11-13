@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form About You</h1>
+    <p id="description">Thank you for taking the time to tell me a little about you.</p>
+<br>
+    <div>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" name="Name" placeholder="your name" required>
+    <br>
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email@mail.com" required>
+    <br>
+            <label for="number" id="number-label">Number of children?</label>
+            <input type="number" id="number" min="0" max="15" placeholder="0">
+    <br>
+        <div>
+            <label for="which-hand" id="which hand">Are you left or right handed?</label>
+            <select id="dropdown">
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="both">Ambidextrous</option>
+            </select>
+        </div>
+    <br>
+        <div>
+            <label for="title">Title:</label>
+            <label for="mr">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="mr"checked>
+            <label for="mrs">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="mrs" checked">
+            <label for="ms">Ms.</label>
+            <input type="radio" id="Ms." name="title" value="Ms"checked>
+ <label for="jr">Jr.</label>
+            <input type="radio" id="Jr." name="title" value="Jr." checked>
+ <label for="dr">Dr.</label>
+            <input type="radio" id="Dr." name="title" value="Dr." checked>
+
+        </div>
+    <br>
+        <div>
+            <label for="bool">Trustworthy</label>
+            <input type="checkbox" name="bool" id="bool"value="Trustworthy" checked>
+            <label for="bool">Friendly</label>
+            <input type="checkbox" name="bool" id="bool"value="Friendly"checked>
+            <label for="bool">Reliable</label>
+            <input type="checkbox" name="bool" id="bool"value="Reliable"checked>
+        </div>
+    <br>
+        
+            
+            <label for="hobbies">What are some of your hobbies?</label>
+            <div>
+            <textarea id="hobbies"  rows="4" cols="50">
+            </textarea>
+            </div>
+            
+        
+    <br>
+    <div>
+        <input id="submit" type="submit" value="Submit">
+    </div>
+        </form>
+    </div>
+</body>
+</html>

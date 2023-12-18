@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("https://www.wallpapertip.com/wmimgs/166-1668509_summer-forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+
+
+}
+
+#title{
+    color:rgb(42, 24, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 30px;
+    color:rgb(81, 52, 14);
+}
+
+#survey-form{
+    color:rgb(16, 54, 16);
+    font-size: 13px;
+    font-family:fantasy;
+    text-align: center;
+
+}
+
+textarea{
+    background: linear-gradient(to bottom, #186305, #8ba98d);
+    border-radius: 10px;
+    border: double;
+    border-color: darkgreen;
+}
+
+
+input[type="submit"]{
+    background-color: rgb(64, 169, 64);
+    border-radius: 5px;
+    border-color: darkgreen;
+
+}
+
+input[type="text"]{
+    background-color: #8ba98d;
+    border-radius: 5px;
+    border-color: rgb(64, 169, 64);
+    color:rgb(216, 177, 127);
+
+}
+
+input[type="text"]::placeholder{
+    color:rgb(216, 177, 127);
+
+}
+
+input[type="email"]{
+    background-color:  #8ba98d;
+    border-radius: 5px;
+    border-color: rgb(64, 169, 64);
+    color:rgb(216, 177, 127);
+
+}
+
+input[type="email"]::placeholder{
+    color:rgb(216, 177, 127);
+
+}
+
+input[type="number"]{
+    background-color: #8ba98d;
+    border-radius: 5px; 
+    border-color: rgb(64, 169, 64);
+    color:rgb(216, 177, 127);
+
+}
+input[type="number"]::placeholder{
+    color:rgb(216, 177, 127);
+
+}
+
+input[type="checkbox"]{
+    accent-color:rgb(216, 177, 127);
+    
+    
+}
+
+input[type="radio"]{
+    accent-color:rgb(216, 177, 127);
+    
+}
+
+#dropdown{
+    background-color: #8ba98d;
+    border-radius: 5px; 
+    border-color: rgb(64, 169, 64);
+    color:rgb(216, 177, 127);
+
+}
+
+
+
+
+
+
